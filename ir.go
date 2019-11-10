@@ -253,6 +253,7 @@ const (
 	ColdCallConv        CallConv = C.LLVMColdCallConv
 	X86StdcallCallConv  CallConv = C.LLVMX86StdcallCallConv
 	X86FastcallCallConv CallConv = C.LLVMX86FastcallCallConv
+	GOSTACKCallConv CallConv = C.LLVMGOSTACKCallConv
 )
 
 //-------------------------------------------------------------------------
